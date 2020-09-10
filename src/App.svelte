@@ -26,7 +26,7 @@
 
 <main>
   <h1>I loove {name}!</h1>
-  <p>from karaeng pattingaloang.</p>
+  <p>from karaeng pattingaloang..</p>
 </main>
 
 <footer>&copy culling 2020</footer>
