@@ -25,11 +25,8 @@
 </style>
 
 <main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
+  <h1>I loove {name}!</h1>
+  <p>from karaeng pattingaloang.</p>
 </main>
 
 <footer>&copy culling 2020</footer>
