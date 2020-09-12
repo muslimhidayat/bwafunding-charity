@@ -4,7 +4,7 @@ module.exports = {
       id: 1,
       title: "first Charity Project",
       category: "money",
-      thumbnail: "./assets/images/causes/causes_4.png",
+      thumbnail: "/assets/images/causes/causes_4.png",
       pledged: 99000,
       target: 100000,
       date_end: +new Date("10 november 2020"),
