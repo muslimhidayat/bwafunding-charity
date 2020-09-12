@@ -121,7 +121,7 @@
                     id="xs-donate-name"
                     class="form-control"
                     bind:value={amount}
-                    required={true}
+                    required="true"
                     placeholder="Your donation " />
                 </div>
 
@@ -133,7 +133,7 @@
                     id="xs-donate-name"
                     class="form-control"
                     bind:value={name}
-                    required={true}
+                    required="true"
                     placeholder="Your awesome name" />
                 </div>
                 <div class="xs-input-group">
@@ -144,7 +144,7 @@
                     id="xs-donate-email"
                     class="form-control"
                     bind:value={email}
-                    required={true}
+                    required="true"
                     placeholder="email@awesome.com" />
                 </div>
 
