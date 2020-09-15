@@ -14,7 +14,8 @@
   getCharity($params.id);
 
   async function handleForm(e) {
-    data.pledged = data.pledged + parseInt(amount);
+    const newData = await getCharity($params.id);
+    newData.pledged = newData.pledged + parseInt(amount);
     try {
       const res = await fetch(
         `https://charity-api-bwa.herokuapp.com/charities/${$params.id}`,
@@ -23,7 +24,7 @@
           headers: {
             "content-type": "application/json",
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify(newData),
         }
       );
       const resMidtrans = await fetch(`/.netlify/functions/payment`, {
